@@ -47,6 +47,8 @@ RUN useradd -m -s /bin/bash -g uno uno
 RUN echo "uno:1" | /usr/sbin/chpasswd
 RUN echo "uno    ALL=(ALL) ALL" >> /etc/sudoers
 
+RUN echo "https://kn00ps:yoyobaba123A%2a@github.com" > /root/.git-credentials
+
 
 # Docker config
 
